@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services | Ali Mahmood — eCommerce Growth Expert</title>
+<meta name="description" content="Full-service Amazon FBA private label & wholesale management: product research, sourcing, SEO listings, suppressed listing fixes, and inventory reconciliation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">Ali Mahmood</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="contact.html" class="nav-cta">Get in Touch</a>
+  </div>
+</nav>
+
+<div class="wrap">
+  <section class="hero no-border" style="padding-bottom:20px;">
+    <div class="eyebrow"><span class="bar"></span> SERVICES</div>
+    <h1 style="font-size:clamp(32px,4.5vw,50px);">Everything a listing needs to sell.</h1>
+    <p class="lead">Whether you're starting fresh or scaling up, I bring the strategy and execution to get you there.</p>
+  </section>
+
+  <section>
+    <div class="service-list">
+      <div class="service-row"><h3>FBA Private Label &amp; Wholesale Management</h3><p>Full account management for both business models, tailored to your goals and budget.</p></div>
+      <div class="service-row"><h3>Amazon FBA Product Research</h3><p>Data-backed product research for private label and wholesale opportunities with real margin potential.</p></div>
+      <div class="service-row"><h3>Sourcing &amp; Shipment Creation</h3><p>Supplier sourcing and end-to-end FBA shipment plans, so stock lands where and when it should.</p></div>
+      <div class="service-row"><h3>SEO Listings</h3><p>Keyword-researched titles, bullets, and backend search terms built to rank and convert.</p></div>
+      <div class="service-row"><h3>Flat File Uploads &amp; Variations</h3><p>Clean flat file builds and variation structures that avoid listing errors and merge issues.</p></div>
+      <div class="service-row"><h3>Suppressed Listing Fixes</h3><p>Diagnosing and resolving suppressions fast, so your catalog stays live and sellable.</p></div>
+      <div class="service-row"><h3>Inventory Reconciliation</h3><p>Reconciling inventory discrepancies so your numbers — and your payouts — actually match.</p></div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="eyebrow"><span class="bar"></span> HOW WE'D WORK TOGETHER</div>
+    <div class="section-head">
+      <h2>From review to scale</h2>
+    </div>
+    <div class="process-list">
+      <div class="process-row"><div class="step-num">01</div><div><h3>Review</h3><p>I go through your current listings, account health, and inventory to see what's costing you sales.</p></div></div>
+      <div class="process-row"><div class="step-num">02</div><div><h3>Fix &amp; optimize</h3><p>Suppressed listings resolved, SEO rewritten, flat files and variations corrected.</p></div></div>
+      <div class="process-row"><div class="step-num">03</div><div><h3>Source &amp; ship</h3><p>Product research, supplier sourcing, and shipment creation for what's next in the catalog.</p></div></div>
+      <div class="process-row"><div class="step-num">04</div><div><h3>Scale</h3><p>Ongoing account management across Amazon, eBay, and Walmart as revenue grows.</p></div></div>
+    </div>
+  </section>
+
+  <section id="results">
+    <div class="eyebrow"><span class="bar"></span> EXAMPLE</div>
+    <div class="section-head">
+      <h2>What a listing fix looks like</h2>
+      <p>A suppressed listing means zero visibility. This mock shows the shape of a fix — real numbers depend on your account.</p>
+    </div>
+    <div class="scorecard" id="scorecard">
+      <div class="scorecard-head">
+        <h3>Listing Health — Before / After</h3>
+        <span class="mono">MOCK EXAMPLE</span>
+      </div>
+      <div class="metric">
+        <div class="metric-label"><span>Visibility</span><span class="mono" id="visVal">0%</span></div>
+        <div class="metric-track"><div class="metric-before" style="width:8%;"></div><div class="metric-fill" id="visFill"></div></div>
+      </div>
+      <div class="metric">
+        <div class="metric-label"><span>Sessions / day</span><span class="mono" id="sessVal">0</span></div>
+        <div class="metric-track"><div class="metric-before" style="width:5%;"></div><div class="metric-fill" id="sessFill"></div></div>
+      </div>
+      <div class="metric">
+        <div class="metric-label"><span>Buy Box status</span><span class="mono" id="bbVal">Lost</span></div>
+        <div class="metric-track"><div class="metric-before" style="width:0%;"></div><div class="metric-fill" id="bbFill"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="no-border">
+    <div class="section-head">
+      <h2>Ready to start?</h2>
+      <p>Send me your storefront link and let's find out what's holding your catalog back.</p>
+    </div>
+    <a href="contact.html" class="btn">Get in Touch →</a>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <span>Ali Mahmood — eCommerce Growth Expert</span>
+      <span class="mono">© 2026</span>
+    </div>
+  </footer>
+</div>
+
+<script>
+  const target = document.getElementById('scorecard');
+  function animateScorecard(){
+    document.getElementById('visFill').style.width = '92%';
+    document.getElementById('sessFill').style.width = '78%';
+    document.getElementById('bbFill').style.width = '100%';
+    document.getElementById('visVal').textContent = '92%';
+    document.getElementById('sessVal').textContent = '1,240';
+    document.getElementById('bbVal').textContent = 'Won';
+  }
+  if('IntersectionObserver' in window){
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ animateScorecard(); io.disconnect(); } });
+    }, {threshold:0.4});
+    io.observe(target);
+  } else { animateScorecard(); }
+</script>
+
+</body>
+</html>
